@@ -12,5 +12,6 @@ if [[ ! -d "$FILE" ]]; then
 	mkdir backup;
 fi
 
-# Loop through the save files and create backup folders.
+# Every minute loop through the save files and create backup folders.
+
 # Name each folder after the creation date of the save file.
