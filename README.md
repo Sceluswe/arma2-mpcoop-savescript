@@ -54,6 +54,7 @@ saveX.roles.ArmA2save
 ```
 X = no number or any number between 1-6.
 Preserving the modification date is crucial as the game uses this to determine which save files belong together.
+
 5. If the game still fails to load your multipayer coop save and you've already deleted the autosaves and continue saves, make sure you delete all save files except for the ones you want to load (and except for the campaign and object files). Your Arma2 save folder should only contain these files:
 ```
 mpsave.ArmA2save
