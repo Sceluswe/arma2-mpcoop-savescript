@@ -1,1 +1,5 @@
 test-files/
+backup/
+*.ArmA2OASave
+campaign.sqc
+objects.sav
