@@ -18,7 +18,7 @@ This should remove the missing map error.
 
 ## Fix 2: Cannot load/resume multiplayer coop saves.
 This is the problem my script solves with one execution but I'm going to write down precisely what it does and why:
-1. Open the folder:
+1. Open the folder where your saves are located:
 ```
 C:\Users\[Your Username]\Documents\ArmA 2\Saved\ca\missions\campaign
 ```
