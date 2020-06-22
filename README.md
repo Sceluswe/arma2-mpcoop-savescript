@@ -24,20 +24,26 @@ C:\Users\[Your Username]\Documents\ArmA 2\Saved\ca\missions\campaign
 ```
 2. DO NOT remove object.sav or campaign.sqc. This is the save files for the campaign and every object in it.
 3. Remove all "autosaves" and "continue" saves. Both of these will always cause the game to fail to load your saves and force you to restart the game. These files are named:
+```
 autosave.roles.Arma2Save
 mpautosave.Arma2Save
 continue.roles.Arma2Save
 mpacontinue.Arma2Save
+```
 4. Backup multiplayer coop save files (along with the campaign and object file) in a separate folder and preserve their modification date. These files are named:
+```
 mpsaveX.ArmA2save
 saveX.roles.ArmA2save
+```
 X = no number or any number between 1-6.
 Preserving the modification date is crucial as the game uses this to determine which save files belong together.
 5. If the game still fails to load your multipayer coop save and you've already deleted the autosaves and continue saves, make sure you delete all save files except for the ones you want to load (and except for the campaign and object files). Your Arma2 save folder should only contain these files:
+```
 mpsave.ArmA2save
 save.roles.ArmA2save
 object.sav
 campaign.sqc
+```
 7. When you've made backups of your save files and deleted the ones you don't want to load, alt+tab back into the game and keep playing and saving until you've got 6 save files again, then repeat this process.
 
 # Further Improvements
