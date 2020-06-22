@@ -62,7 +62,7 @@ save.roles.ArmA2save
 object.sav
 campaign.sqc
 ```
-7. When you've made backups of your save files and deleted the ones you don't want to load, alt+tab back into the game and keep playing and saving until you've got 6 save files again, then repeat this process.
+6. When you've made backups of your save files and deleted the ones you don't want to load, alt+tab back into the game and keep playing and saving until you've got 6 save files again, then repeat this process.
 
 # Further Improvements
 1. Make the script a background process so the user can continue to play and save their game without ever having to execute the script more than once (before they start their arma2 coop game).
