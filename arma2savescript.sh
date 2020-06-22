@@ -17,9 +17,9 @@ fi
 #cp objects.sav backup/objects.sav
 
 # Loop through the save files and create backup folders.
-for i in save*; do
+for FILENAME in save*; do
 	# Create a folder named after the save files original modification date.
-	SAVEDATE=$(stat -c %y $i)
+	SAVEDATE=$(stat -c %y $FILENAME)
 	SAVEDATE=${SAVEDATE%.*}
 	SAVEDATE=${SAVEDATE// /_}
 	SAVEDATE=${SAVEDATE//:/.}
@@ -28,8 +28,8 @@ for i in save*; do
 	# Save the two campaign files and the two related save files in the folder.
 	cp -p campaign.sqc backup/$SAVEDATE/campaign.sqc
 	cp -p objects.sav backup/$SAVEDATE/objects.sav
-	#mv $i.* backup/$SAVEDATE/$i.*
-	#mv mp$i.* backup/$SAVEDATE/mp$i.*
-	echo $SAVEDATE
+	cp -p $FILENAME backup/$SAVEDATE/$FILENAME
+	SAVENAME=${FILENAME%%.*}
+	cp -p --parent "mp$SAVENAME."* backup/$SAVEDATE/
+	# echo mp$SAVENAME.*
 done
-
