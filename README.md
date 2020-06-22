@@ -20,7 +20,7 @@ X = nothing, or a number 1-6.
 
 # Arma2 Multiplayer Campaign Coop Fixes
 ## Fix 1: Missing maps
-If you encounter an error saying you're lacking a certain kind of map when playing Arma2 multiplayer coop you'll need to either install Arma2 the base game and if that doesn't work you'll have to do the following:
+If you encounter an error that says you're lacking a certain kind of map/file when attempting to load an Arma2 multiplayer coop campaign you'll need to either install Arma2 the base game or if that doesn't work, do the following:
 
 1. Run STEAM Client as administrator (right click -> properties -> advanced -> run as admin)
 2. Run Arma 2 once and exit it.
