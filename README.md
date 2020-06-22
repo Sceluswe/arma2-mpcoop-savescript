@@ -16,7 +16,7 @@ C:\Program Files (x86)\Steam\SteamApps\common\ARMA 2 Operation Arrowhead\DLCsetu
 6. Once the game has started, close it.
 This should remove the missing map error.
 
-## Fix 2: Cannot load/resume multiplayer coop saves.
+## Fix 2: Cannot load/resume multiplayer campaign coop saves.
 This is the problem my script solves with one execution but I'm going to write down precisely what it does and why:
 1. Open the folder where your saves are located:
 ```
