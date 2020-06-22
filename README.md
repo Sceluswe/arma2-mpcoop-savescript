@@ -1,7 +1,7 @@
 # Introduction
 Arma2 and Arma2:Operation Arrowhead cannot properly load multiplayer coop saves. When executed this script will create a backup folder and store each save inside it. Further it will clean the original save directory so that you can keep saving your game. So far you'll have to execute this script whenever you've saved your multiplayer coop game 6 times. Arma2 doesn't allow you to save any more than that, it'll simply refuse to save your game.
 
-# Arma2 Multiplayer Coop Fixes
+# Arma2 Multiplayer Campaign Coop Fixes
 ## Fix 1: Missing maps
 If you encounter an error saying you're lacking a certain kind of map when playing Arma2 multiplayer coop you'll need to either install Arma2 the base game and if that doesn't work you'll have to do the following:
 
