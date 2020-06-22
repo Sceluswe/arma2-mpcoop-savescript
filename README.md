@@ -1,6 +1,23 @@
 # Introduction
 Arma2 and Arma2:Operation Arrowhead cannot properly load multiplayer coop saves. When executed this script will create a backup folder and store each save inside it. Further it will clean the original save directory so that you can keep saving your game. So far you'll have to execute this script whenever you've saved your multiplayer coop game 6 times. Arma2 doesn't allow you to save any more than that, it'll simply refuse to save your game.
 
+# Using my script (for now, hopefully I can make it a background process)
+1. Place the arma2savescript.sh file inside your arma2 save game folder (you only have to do this once).
+```
+C:\Users\[Your Username]\Documents\ArmA 2\Saved\ca\missions\campaign
+```
+2. Run the script whenever you want to load a game or when you've saved your game 6 times.
+3. Copy the save files you want to use from the backup folder back into your save game folder. The save game folder should contain:
+```
+mpsaveX.ArmA2save
+saveX.roles.ArmA2save
+object.sav
+campaign.sqc
+```
+X = nothing, or a number 1-6.
+4. Host your multiplayer coop campaign and it'll resume your save.
+
+
 # Arma2 Multiplayer Campaign Coop Fixes
 ## Fix 1: Missing maps
 If you encounter an error saying you're lacking a certain kind of map when playing Arma2 multiplayer coop you'll need to either install Arma2 the base game and if that doesn't work you'll have to do the following:
@@ -11,12 +28,12 @@ If you encounter an error saying you're lacking a certain kind of map when playi
 ```
 C:\Program Files (x86)\Steam\SteamApps\common\ARMA 2 Operation Arrowhead\DLCsetup\0ACRlite\
 ```
-4. As administrator un the file "datacachepreprocessor.exe".
+4. As administrator run the file "datacachepreprocessor.exe".
 5. Arma2 or Arma2OA will launch when the exe has finished, during the games startup it's downloading your missing files.
 6. Once the game has started, close it.
 This should remove the missing map error.
 
-## Fix 2: Cannot load/resume multiplayer campaign coop saves.
+## Fix 2: Cannot load/resume multiplayer campaign coop saves and what my script does.
 This is the problem my script solves with one execution but I'm going to write down precisely what it does and why:
 1. Open the folder where your saves are located:
 ```
