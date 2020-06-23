@@ -1,5 +1,5 @@
 # Introduction
-Arma2 and Arma2:Operation Arrowhead cannot properly load multiplayer coop saves. When executed this script will create a backup folder and store each save inside it. Further it will clean the original save directory so that you can keep saving your game. So far you'll have to execute this script whenever you've saved your multiplayer coop game 6 times. Arma2 doesn't allow you to save any more than that, it'll simply refuse to save your game.
+Arma2 and Arma2:Operation Arrowhead cannot properly load multiplayer coop campaign saves. When executed this script will create a backup folder and store each save inside it. Further it will clean the original save directory so that you can keep saving your game. So far you'll have to execute this script whenever you've saved your multiplayer coop game 6 times. Arma2 doesn't allow you to save any more than that, it'll simply refuse to save your game.
 
 # Using my script (for now, hopefully I can make it a background process)
 1. Place the arma2savescript.sh file inside your arma2 save game folder (you only have to do this once).
