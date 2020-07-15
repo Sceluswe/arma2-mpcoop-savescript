@@ -16,7 +16,7 @@ campaign.sqc
 ```
 X = nothing, or a number 1-6.
 4. Host your multiplayer coop campaign and it'll resume your save.
-
+5. Now you can load your save and play.
 
 # Arma2 Multiplayer Campaign Coop Fixes
 ## Fix 1: Missing maps
